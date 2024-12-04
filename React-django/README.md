@@ -1,6 +1,6 @@
 # My Web Project
 
-This is a web application built using **Django** for the backend and **React** for the frontend.
+This is a web application built using **Django** for the backend and **React** for the frontend along with Vite modern front-end build tooL,
 
 ## Technologies Used:
 - **Backend**: Django 5.1.1
@@ -54,20 +54,21 @@ Copy code
 - The frontend will run at `http://localhost:5173/`.
 
 
+_______________________________________________________________________________________________
+Aditional information about app:
+
+1. this app is built by using react for frontend, django for backend,
+
+2. django rest framework for user authentication:
+
+3. rest api for crud operation.
+
+4. user can register, login, logout.
+
+5. When a user logs in, can create and send a data, delete data, fetch single data with its specific id,
+
+6. this app used Postgresql database ,
 
 
 
 
-
-
-EDIT 12TH LINE
-
-Steps:
-- Create a GitHub repository (e.g., `https://github.com/yourusername/project-name`).
-- Push your project to GitHub:
-  ```bash
-  git init
-  git add .
-  git commit -m "Initial commit"
-  git remote add origin https://github.com/yourusername/project-name.git
-  git push -u origin master
