@@ -55,19 +55,26 @@ Copy code
 
 
 _______________________________________________________________________________________________
-Aditional information about app:
 
-1. this app is built by using react for frontend, django for backend,
+Features:
+User Authentication:
 
-2. django rest framework for user authentication:
+The application supports user registration, login, and logout functionalities.
+Django REST Framework handles authentication, using token-based or session-based methods.
+CRUD Operations via REST API:
 
-3. rest api for crud operation.
+Create: Users can submit and store data.
+Read: Users can fetch data, including retrieving specific records by their unique ID.
+Update: Users can modify existing data.
+Delete: Users can remove specific data.
+Database:
 
-4. user can register, login, logout.
+PostgreSQL is used to store all application data, ensuring scalability and reliability.
+Seamless Frontend-Backend Integration:
 
-5. When a user logs in, can create and send a data, delete data, fetch single data with its specific id,
+The React frontend communicates with the Django REST API to provide a smooth user experience.
+API endpoints enable data interaction in real time, with support for fetching, sending, updating, and deleting records.
 
-6. this app used Postgresql database ,
 
 
 
