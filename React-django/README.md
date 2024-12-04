@@ -57,6 +57,7 @@ Copy code
 _______________________________________________________________________________________________
 
 Features:
+
 User Authentication:
 
 The application supports user registration, login, and logout functionalities.
@@ -64,15 +65,16 @@ Django REST Framework handles authentication, using token-based or session-based
 CRUD Operations via REST API:
 
 Create: Users can submit and store data.
-Read: Users can fetch data, including retrieving specific records by their unique ID.
+Read:   Users can fetch data, including retrieving specific records by their unique ID.
 Update: Users can modify existing data.
 Delete: Users can remove specific data.
-Database:
 
+
+Database:
 PostgreSQL is used to store all application data, ensuring scalability and reliability.
 Seamless Frontend-Backend Integration:
 
-The React frontend communicates with the Django REST API to provide a smooth user experience.
+The React frontend communicates with the Django REST API to provide a smooth user experience,along with react router.
 API endpoints enable data interaction in real time, with support for fetching, sending, updating, and deleting records.
 
 
