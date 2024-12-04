@@ -1,0 +1,16 @@
+.fetch{
+  margin-left: 15%;
+  margin-top: 3%;
+  border: 0.5px solid black;
+  max-width: 70%;
+  align-items: center;
+  text-align: center;
+  background-color: wheat;
+  padding-top:-2em;
+  padding-bottom: 1em;
+  border-radius: 5px;
+}
+
+.fetch button{
+  font-size: large;
+}
